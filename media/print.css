@@ -1,0 +1,79 @@
+@media print{
+body{
+    margin:50px;
+    padding:0;    
+    border: 0;
+    font-size: 18px !important;
+    line-height: 1.4em;
+    font-family: "Open sans", sans-serif;
+}
+.container{
+    color: #aaa;
+}
+.heading{
+    width:auto;
+    margin: auto 120px;
+}
+.contact-links{
+    padding: 3px 0;
+    font-size: 70%;
+}
+h1.name{
+    font-size: 130%;
+    color: #F07415;
+    padding: 0;
+    margin: 0;
+}
+.experience{
+    width: 100%;
+    height: auto;
+}
+.description-text{
+    display: block;
+}
+.col-1{
+    width: 22%;
+    color: #F07415;
+}
+table{
+    border-collapse: collapse;
+}
+.separator{
+    padding-top:20px;
+}
+.entity{
+    color: #F07415;
+}
+.period{
+    color: #aaa;
+    font-size: 70%;
+}
+.major{
+    text-align: left;
+    color: #1D49A0;
+    font-size: 120%;
+}
+.major-row > td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+a {
+    text-decoration: none;
+    color: #aaa;
+}
+.contact-links > a:hover {
+    color:#39f
+}
+ul{
+    padding:0;
+}
+li{
+    list-style: none;
+}
+td{
+    font-size: 90% !important;
+}
+.page-break{
+    page-break-before:always;
+}
+}
