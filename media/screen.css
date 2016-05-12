@@ -2,10 +2,9 @@ body{
     margin:20px auto;
     padding:0;    
     border: 0;
-    font-size: 100%;
-    font: inherit;
+    font-size: 24px;
     line-height: 1.4em;
-    
+    font-family: "Open sans", sans-serif;
 }
 .container{
     margin: auto 150px;
@@ -14,14 +13,13 @@ body{
 .heading{
     width:auto;
     margin: auto 150px;
-
 }
 .contact-links{
     padding: 3px 0;
-    font-size: 14px;
+    font-size: 50%;
 }
 h1.name{
-    font-size: 24px;
+    font-size: 130%;
     color: #F07415;
     padding: 0;
     margin: 0;
@@ -32,17 +30,6 @@ h1.name{
 }
 .description-text{
     display: block;
-}
-.col1{
-    width: 10%;
-    text-align: right;
-    border-spacing: 30px;
-    color: #1D49A0;
-}
-.col2{
-    width:20%;
-    color: #aaa;
-    padding-left:25px;
 }
 .col-1{
     width: 15%;
@@ -59,12 +46,12 @@ table{
 }
 .period{
     color: #aaa;
-    font-size: 0.8em;
+    font-size: 70%;
 }
 .major{
     text-align: left;
     color: #1D49A0;
-    font-size: 1.2em;
+    font-size: 120%;
 }
 .major-row > td{
     padding-top: 15px;
@@ -82,4 +69,8 @@ ul{
 }
 li{
     list-style: none;
+    font-size: 100%;
+}
+td{
+    font-size: 90%;
 }
