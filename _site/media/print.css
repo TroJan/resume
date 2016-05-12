@@ -1,22 +1,22 @@
+@media print{
 body{
-    margin:20px auto;
+    margin:50px;
     padding:0;    
     border: 0;
-    font-size: 24px;
+    font-size: 18px !important;
     line-height: 1.4em;
     font-family: "Open sans", sans-serif;
 }
 .container{
-    margin: auto 150px;
     color: #aaa;
 }
 .heading{
     width:auto;
-    margin: auto 150px;
+    margin: auto 120px;
 }
 .contact-links{
     padding: 3px 0;
-    font-size: 50%;
+    font-size: 70%;
 }
 h1.name{
     font-size: 130%;
@@ -32,7 +32,7 @@ h1.name{
     display: block;
 }
 .col-1{
-    width: 15%;
+    width: 22%;
     color: #F07415;
 }
 table{
@@ -69,8 +69,11 @@ ul{
 }
 li{
     list-style: none;
-    font-size: 100%;
 }
 td{
-    font-size: 90%;
+    font-size: 90% !important;
+}
+.page-break{
+    page-break-before:always;
+}
 }
