@@ -1,0 +1,4 @@
+markdown:   kramdown
+
+pages_list:
+ Contributions: '/contributions.html'
