@@ -20,28 +20,45 @@
 
     <table>
     <tr>
-    <td colspan="2"><span class="major">Experience</span></td>
+    <td colspan="2"><span class="major">Work Experience</span></td>
     </tr>
     <tr>
         <td class="col-1">
             <span class="entity">Paytm</span><br/>
             <span class="period">June 2015 - Present</span>
         </td>
-        <td>Working as a Software developer. Technology primarily involve Django. Others include Nodejs, ElasticSearch, RabbitMq and D3. Created many open source projects (django apps) and setup <a href="http://paytm.github.io/">engineering blog</a> on github.</td>
+        <td><strong>Recharges</strong><br/>
+        <ul>
+            <li>Developed a Recharge Mis Panel. This helped Business and Operations Team to track the status of a particular vertical or operator, This also helped the tech team in tracking down error and success in recharge or recharge hits.</li>
+            <li>Developed a Live Recharge Status Panel to get success and error percentage of any operator. It helped the Business team in deciding the re-routing of any operator through other gateway. It also facilitated the disabling of validation call in case error percentage is high. Data was stored in ElasticSearch and D3 along with Django was used for displaying graphs.</li>
+            <li>Created a Gateway Sequencing and Operator Re-routing panel. This helped the Operations Team to re-route any operator through a particular gateway at run-time. Used D3's Dendogram to represent operator and Django</li>
+        </ul><br/>
+        <strong>Logistics</strong><br/>
+        <ul>
+            <li>Setup a complete Django project from scratch. Managed everything from its server setup(uwsgi, Nginx) to deployment job and scaling</li>
+            <li>Developed a simulation panel for Courier Rule-engine. This helped the product and business team to simulate the allocation of courier for a particular product along a particular route.</li>
+            <li>Developed a courier mis panel which helped the product and operation team  to see status of any shipment at courier's end.</li>
+            <li>Implemented the consumer side of Paytm oauth in Django and open sourced it as pluggable Django app <a href="https://github.com/paytm/django-paytm-oauth">django-paytm-oauth</a></li>
+            <li>Developed a Product Liquidation Decision Panel. This panel is being used by various third party RPC's across all over India. It helps in deciding whether the product should be liquidated or be payout to the merchant.</li>
+            <li>Developed a plugin based system in Nodejs to interact with courier for services like Order creation, cancellation and tracking. The system handles 1K request per minute and logs each interaction with courier into ElasticSearch. A <a href="https://github.com/paytm/courier-plugin-sdk-nodejs">courier-sdk</a> was also written so that any courier can easily write a plugin and integration time is decreased eventually</li>
+            <li>Developed a retry mechanism, as a service over queue based framework RabbitMQ. Service is written in such a way so that it can be easily plugged into any client and failure rates for the client can be drastically reduced.</li>
+        </ul>
+        </td>
+        
     </tr>
     <tr>
         <td class="col-1">
             <span class="entity">Fratmart.com</span><br/>
             <span class="period">Aug 2014 - Nov 2014</span>
         </td>
-        <td>Worked as a Django Developer. Created the whole product from scratch. Designed the database schema as well hosted the app on AWS.</td>
+        <td>Responsible for designing the whole product from scratch in Django. Played major roles from product design and development to hosting the application on AWS</td>
     </tr>
     <tr>
         <td class="col-1">
         <span class="entity">Schneider Electric</span><br/>
         <span class="period">Nov 2013 - June 2014</span>
         </td>
-        <td>Worked as a C++ developer in a R&D project dealing with substation where automation is required on failure of a substation</td>
+        <td>Responsible for designing the product of Gateway SMS interaction, which triggered message to the concerned people when ever any station or substation fails. This helped in taking the required action to prevent subsequent failures in case of huge load and make arrangements for alternate power source. The code was written in C++ and was successfully integrated as a module in the codebase.</td>
     </tr>
     <tr>
         <td class="col-1">

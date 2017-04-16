@@ -7,7 +7,7 @@
         <link href="media/print.css" type="text/css" rel="stylesheet" media="print">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <style>
-            
+
         </style>
     </head>
 <body>
@@ -20,35 +20,52 @@
 
     <table>
     <tr>
-    <td colspan="2"><span class="major">Experience</span></td>
+    <td colspan="2"><span class="major">Work Experience</span></td>
     </tr>
     <tr>
         <td class="col-1">
             <span class="entity">Paytm</span><br/>
             <span class="period">June 2015 - Present</span>
         </td>
-        <td>Working as a Software developer. Technology primarliy involve Django. Others include Nodejs, ElasticSearch, and D3.</td>
+        <td><strong>Recharges</strong><br/>
+        <ul>
+            <li>Developed a Recharge Mis Panel. This helped Business and Operations Team to track the status of a particular vertical or operator, This also helped the tech team in tracking down error and success in recharge or recharge hits.</li>
+            <li>Developed a Live Recharge Status Panel to get success and error percentage of any operator. It helped the Business team in deciding the re-routing of any operator through other gateway. It also facilitated the disabling of validation call in case error percentage is high. Data was stored in ElasticSearch and D3 along with Django was used for displaying graphs.</li>
+            <li>Created a Gateway Sequencing and Operator Re-routing panel. This helped the Operations Team to re-route any operator through a particular gateway at run-time. Used D3's Dendogram to represent operator and Django</li>
+        </ul><br/>
+        <strong>Logistics</strong><br/>
+        <ul>
+            <li>Setup a complete Django project from scratch. Managed everything from its server setup(uwsgi, Nginx) to deployment job and scaling</li>
+            <li>Developed a simulation panel for Courier Rule-engine. This helped the product and business team to simulate the allocation of courier for a particular product along a particular route.</li>
+            <li>Developed a courier mis panel which helped the product and operation team  to see status of any shipment at courier's end.</li>
+            <li>Implemented the consumer side of Paytm oauth in Django and open sourced it as pluggable Django app <a href="https://github.com/paytm/django-paytm-oauth">django-paytm-oauth</a></li>
+            <li>Developed a Product Liquidation Decision Panel. This panel is being used by various third party RPC's across all over India. It helps in deciding whether the product should be liquidated or be payout to the merchant.</li>
+            <li>Developed a plugin based system in Nodejs to interact with courier for services like Order creation, cancellation and tracking. The system handles 1K request per minute and logs each interaction with courier into ElasticSearch. A <a href="https://github.com/paytm/courier-plugin-sdk-nodejs">courier-sdk</a> was also written so that any courier can easily write a plugin and integration time is decreased eventually</li>
+            <li>Developed a retry mechanism, as a service over queue based framework RabbitMQ. Service is written in such a way so that it can be easily plugged into any client and failure rates for the client can be drastically reduced.</li>
+        </ul>
+        </td>
+        
     </tr>
     <tr>
         <td class="col-1">
             <span class="entity">Fratmart.com</span><br/>
             <span class="period">Aug 2014 - Nov 2014</span>
         </td>
-        <td>Worked as a Django Developer. Created the whole product from scratch. Designed the database schema as well hosted the app on AWS.</td>
+        <td>Responsible for designing the whole product from scratch in Django. Played major roles from product design and development to hosting the application on AWS</td>
     </tr>
     <tr>
         <td class="col-1">
         <span class="entity">Schneider Electric</span><br/>
         <span class="period">Nov 2013 - June 2014</span>
         </td>
-        <td>Worked as a C++ developer in a R&D project dealing with substation where automation is required on failure of a substation</td>
+        <td>Responsible for designing the product of Gateway SMS interaction, which triggered message to the concerned people when ever any station or substation fails. This helped in taking the required action to prevent subsequent failures in case of huge load and make arrangements for alternate power source. The code was written in C++ and was successfully integrated as a module in the codebase.</td>
     </tr>
     <tr>
         <td class="col-1">
         <span class="entity">Tulsana Consultancy</span><br/>
         <span class="period">Sept 2012 - Nov 2012</span>
         </td>
-        <td>Worked for Online Retail Products (of Walmart). Major areas included Google Adwords Keyword Optimization, Products Research and Keyword Competition Analysis.</td>
+        <td>Worked for On-line Retail Products (of Walmart). Major areas included Google Ad-words Keyword Optimization, Products Research and Keyword Competition Analysis.</td>
     </tr>
     <tr class="major-row">
     <td colspan="2"><span class="major">Education</span></td>
@@ -56,8 +73,8 @@
     <tr>
             <td class="col-1">2011-2015</td>
             <td>
-                <p>Bachelor of Technology, Computer Science, 
-                JSS Academy of Technical Education, Noida, 
+                <p>Bachelor of Technology, Computer Science,
+                JSS Academy of Technical Education, Noida,
                 <b>79.40%</b>
             </p>
             </td>
@@ -81,16 +98,12 @@
         <td>MySQL, PostgreSQL, ElasticSearch</td>
     </tr>
     <tr>
-        <td class="col-1">Platforms</td>
-        <td>Linux(Ubuntu) and Windows</td>
-    </tr>
-    <tr>
         <td class="col-1">Frameworks</td>
-        <td>Python based Django, Nodejs, D3.js</td>
+        <td>Django, Nodejs, D3.js</td>
     </tr>
     <tr>
         <td class="col-1">Other Skills</td>
-        <td>Nginx, Vim, Git</td>
+        <td>Nginx, Vim, Git, Haproxy, RabbitMQ</td>
     </tr>
     <tr  class="major-row">
     <td colspan="2"><span class="major">Projects</span></td>
@@ -99,7 +112,7 @@
         <td class="col-1">Bot</td>
         <td>
         <ul>
-        <li>Created a bot named <a href="https://github.com/TroJan/tyriot">Tyriot</a> (Tyrion Bot) which is based on Hubot. The main idea is to make this bot more talkative and lively, thereby using cron jobs for this purposee</li>
+        <li>Created a bot named <a href="https://github.com/TroJan/tyriot">Tyriot</a> (Tyrion Bot) which is based on Hubot. The main idea is to make this bot more talkative and lively, thereby using cron jobs for this purpose</li>
         <li> Wrote many scripts for <a href="https://github.com/paytm/jarvis/commits?author=TroJan">Jarvis</a> (based on Hubot)
         </ul>
         </td>
@@ -113,10 +126,19 @@
         </td>
     </tr>
     <tr>
+        <td class="col-1">EvalAI</td>
+        <td>
+        <ul>
+        <li><a href="https://github.com/Cloud-CV/EvalAI/commits?author=TroJan">EvalAI</a>, an open-source web platform that enables researchers, students, and data-scientists to organize and participate in Artificial Intelligence challenges or competitions. These challenges and benchmarks are essential to the accurate evaluation of novel AI research.</li>
+        <li>Presently leading the backend development. Responsible from design, architecture design, maintaining the project, following test driven development, rest api design and helping other contributors.</li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
         <td class="col-1">Open Source Contribution</td>
         <td>
         <ul>
-        <li>Notable projects include DropBox's <a href="https://github.com/zulip/zulip/commits?author=TroJan">Zulip</a>, PythonIndia's <a href="https://github.com/pythonindia/wye/commits?author=TroJan">wye</a>, Django <a href="https://github.com/django-import-export/django-import-export/commits?author=TroJan">ImportExport</a> Package, Mozilla <a href="https://github.com/mozilla/fjord/commits?author=TroJan">Input</a>
+        <li>Notable projects include DropBox's <a href="https://github.com/zulip/zulip/commits?author=TroJan">Zulip</a>, CLoudCV's <a href="https://github.com/Cloud-CV/EvalAI/commits?author=TroJan">EvalAI</a> PythonIndia's <a href="https://github.com/pythonindia/wye/commits?author=TroJan">wye</a>, Django <a href="https://github.com/django-import-export/django-import-export/commits?author=TroJan">ImportExport</a> Package, Mozilla <a href="https://github.com/mozilla/fjord/commits?author=TroJan">Input</a>
         Other contributions can be seen at <a href="contributions.html">link</a></li>
         </ul>
         </td>
@@ -146,11 +168,19 @@
         <li>Created Django open source packages namely <a href="https://github.com/paytm/django-supermigrate">django-supermigrate</a>,
         <a href="https://github.com/paytm/dj-j-ka-bachcha-field">dj-jsonfield</a>, <a href="https://github.com/paytm/dj-myghanta">dj-mysqltimestampfield</a> and <a href="https://github.com/paytm/django-paytm-oauth">django-paytm-oauth</a></li>
         <li>An application which imitates the functionality of a basic rest client.</li>
-        <li><a href="stickersgallery.com">Stickersgallery.com</a>, an online shopping website for laptop &amp; mobile stickers. Wrote the whole
+        <li><a href="http://stickersgallery.com">Stickersgallery.com</a>, an online shopping website for laptop &amp; mobile stickers. Wrote the whole
         code from scratch independently.</li>
         <li><a href="https://github.com/TroJan/rest-rooms-around">Rest Room</a> marking website (geolocation based website)<br/>
         A web application where a user can mark his location and see what places
         he/she has visited uptill now.</li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td class="col-1">Chrome Extension</td>
+        <td>
+        <ul>
+        <li>A <a href="https://chrome.google.com/webstore/detail/jss-infoconnect/bjbhieinmkegiklnnkgjmpknemglnafm"> chrome extension</a> which fetches notices from JSS Connect. Source code can be found at <a href="https://github.com/GDG-JSS-NOIDA/connect-chrome-extension">connect-chrome-extension</a>.</li>
         </ul>
         </td>
     </tr>
