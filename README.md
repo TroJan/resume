@@ -1,3 +1,3 @@
 # resume
 
-[Link](taranjeet.github.io/resume)
+[Link](http://taranjeet.github.io/resume/)
