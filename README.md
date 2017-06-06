@@ -1,3 +1,3 @@
 # resume
 
-[Link](trojan.github.io/resume)
+[Link](taranjeet.github.io/resume)
